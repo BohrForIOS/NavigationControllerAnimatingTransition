@@ -1,5 +1,6 @@
 # NavigationControllerAnimatingTransition
 这篇文章与我前面写的一篇文章"[普通控制器的自定义转场动画的实现步骤-iOS](http://www.jianshu.com/p/d88030216001)"都是关于控制器的自定义转场动画的，前面一篇介绍了普通控制器的自定义转场动画的实现，这一篇则介绍导航控制器的自定义转场动画的实现。详情可看简书地址：http://www.jianshu.com/p/93bad7cab469
+
 在Object-C中，控制器的转场有两类，一类是导航控制器的push和pop，一类是普通控制器的present和dismiss，这里只讲导航控制器的转场动画，普通控制器的转场动画前面已经讲过。
 
 当我们调用`[self.navigationController pushViewController:vc animated:YES]`或者`[self.navigationController popViewControllerAnimated:YES]`时，即可实现系统自带的导航控制器的push和pop转场动画，但是有时候你可能想要别的效果，这个时候就需要我们自定义控制器的转场动画了
