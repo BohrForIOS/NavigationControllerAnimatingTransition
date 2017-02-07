@@ -7,7 +7,7 @@
 
 当你了解后，你会发现，导航控制器的自定义转场动画，实现起来其实也很简单。以下的gif图里就是我实现的导航控制器的自定义转场动画，这也是调用`[self.navigationController pushViewController:vc animated:YES]`或者`[self.navigationController popViewControllerAnimated:YES]`实现的效果哦，跟系统的push，pop的效果明显不一样吧
 
-![image](https://github.com/BohrForIOS/NavigationControllerAnimatingTransition/blob/master/NavigationViewControllerTransition/NavigationControllerAnimatingTransition.gif)
+![image](https://github.com/BohrForIOS/NavigationControllerAnimatingTransition/blob/master/NavigationViewControllerTransition/NavigationControllerAnimatingTransition.gif )
 
 实现步骤如下：
 
